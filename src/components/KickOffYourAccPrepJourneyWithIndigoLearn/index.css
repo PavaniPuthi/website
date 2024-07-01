@@ -1,0 +1,35 @@
+.kick-off-total-container{
+    display:flex;
+    flex-direction:row;
+    padding:50px;
+    background-color:#eeeee4;
+    height:100vh;
+}
+
+.form-container{
+    display:flex;
+    flex-direction:column;
+    height:60vh;
+    box-shadow:0px 4px 4px #d3d9c0;
+    background-color:#ffffff;
+    padding:10px;
+}
+
+.kick-off-container{
+    width:50vw;
+}
+
+.call-back-button{
+    margin-top:20px;
+    background-color:violet;
+    color:#ffffff;
+
+}
+.kick-off-heading{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kick-off-para{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

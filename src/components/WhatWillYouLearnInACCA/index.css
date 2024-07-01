@@ -1,0 +1,24 @@
+.learning-container{
+    width:20vw;
+    background-color: #eeeee4;
+    margin-right:10px;
+    height:auto;
+}
+.learning-heading{
+    background-color:#3c32a8;
+    color:#ffffff;
+    font-size:20px;
+    text-align: center;
+    height:50px;
+    width: 20vw;;
+    
+}
+.learning-flex-container{
+    display: flex;
+}
+.learning-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

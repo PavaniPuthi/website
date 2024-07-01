@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import KickOffYourAccPrepJourneyWithIndigoLearn from './components/KickOffYourAccPrepJourneyWithIndigoLearn'
+import PlacementSupport from './components/PlacementSupport'
+import WhatWillYouLearnInACCA from './components/WhatWillYouLearnInACCA'
+import WhyChooseUS from './components/WhyChooseUS'
+import ACCAEligibility from './components/ACCAEligibility'
+import BecomeACCAIn18Months from './components/BecomeACCAIn18Months'
+import Header from './components/Header'
+import './App.css'
 
-export default App;
+const App = () => (
+  <BrowserRouter>
+    <Header />
+    <Routes>
+    <Route exact path="/" component={BecomeACCAIn18Months}/>
+  <Route exact path='/whyChooseus' component={WhyChooseUS} />
+  <Route exact path='/eligibility' component={ACCAEligibility} />
+  <Route exact path='/whatwilllearn' component={WhatWillYouLearnInACCA}/>
+  <Route exact path='/placement' component={PlacementSupport}/>
+  <Route exact path='/kickoff' component={KickOffYourAccPrepJourneyWithIndigoLearn} />
+  </Routes>
+ </BrowserRouter>
+)
+export default App
+
