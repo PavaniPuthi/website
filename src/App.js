@@ -13,7 +13,7 @@ const App = () => (
   <BrowserRouter>
     <Header />
     <Routes>
-    <Route exact path="/" component={BecomeACCAIn18Months}/>
+  <Route exact path='/' component={BecomeACCAIn18Months} />
   <Route exact path='/whyChooseus' component={WhyChooseUS} />
   <Route exact path='/eligibility' component={ACCAEligibility} />
   <Route exact path='/whatwilllearn' component={WhatWillYouLearnInACCA}/>

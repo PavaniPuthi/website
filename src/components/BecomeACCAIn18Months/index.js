@@ -5,13 +5,14 @@ import './index.css'
 class BecomeACCAIn18Months extends Component{
     state={isTrue:true}
     onClickRequest=()=>{
+      
         this.setState({isTrue:false})
     }
 
-   
-    render(){
+render(){
         const {isTrue}=this.state
-        return <div className="acca-main-container">
+return (
+        <div className="acca-main-container">
             <div className="acca-container">
       <h2>Become ACCA in 18 Months</h2>
       <p>ACCA (Association of Chartered Certified Accountants) is a globally recognized certification that opens doors to exciting career opportunities in accounting and finance.</p>
@@ -42,7 +43,7 @@ class BecomeACCAIn18Months extends Component{
             </form>}
             {!isTrue&&<h1>Success</h1>}
             
-        </div>
+        </div>)
     }
 }
 
