@@ -11,16 +11,16 @@ import './App.css'
 
 const App = () => (
   <BrowserRouter>
-    <Header />
-    <Routes>
-  <Route exact path='/' component={BecomeACCAIn18Months} />
-  <Route exact path='/whyChooseus' component={WhyChooseUS} />
-  <Route exact path='/eligibility' component={ACCAEligibility} />
-  <Route exact path='/whatwilllearn' component={WhatWillYouLearnInACCA}/>
-  <Route exact path='/placement' component={PlacementSupport}/>
-  <Route exact path='/kickoff' component={KickOffYourAccPrepJourneyWithIndigoLearn} />
-  </Routes>
- </BrowserRouter>
+  <Header />
+  <Routes>
+<Route exact path='/' Component={BecomeACCAIn18Months} />
+<Route exact path='/whyChooseus' Component={WhyChooseUS} />
+<Route exact path='/eligibility' Component={ACCAEligibility} />
+<Route exact path='/whatwilllearn' Component={WhatWillYouLearnInACCA}/>
+<Route exact path='/placement' Component={PlacementSupport}/>
+<Route exact path='/kickoff' Component={KickOffYourAccPrepJourneyWithIndigoLearn} />
+</Routes>
+</BrowserRouter>
 )
 export default App
 
