@@ -25,4 +25,5 @@ const ACCAEligibility=()=>{
     </div>
  </div>
 }
+
 export default ACCAEligibility

@@ -11,4 +11,5 @@ return <div className="placement-support-container">
 <p className="placement-support-topic-desc">access our job boards and receive guidance on effective job searching strategies.</p>
 </div>
 }
+
 export default PlacementSupport

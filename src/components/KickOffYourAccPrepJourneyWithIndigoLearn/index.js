@@ -9,6 +9,7 @@ class KickOffYourAccPrepJourneyWithIndigoLearn extends Component{
     onclickSignIn=()=>{
         this.setState({isSignIn:false})
     }
+    
     render(){
         const {isTrue,isSignIn}=this.state
         return <div className='kick-off-total-container'>

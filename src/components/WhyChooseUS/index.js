@@ -25,6 +25,7 @@ const WhyChooseUS =()=>{
             </div>
         </div>
     </div>
+    
 }
 
 export default WhyChooseUS
